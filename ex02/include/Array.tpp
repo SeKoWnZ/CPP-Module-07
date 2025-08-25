@@ -6,7 +6,7 @@
 /*   By: jose-gon <jose-gon@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/13 17:31:56 by jose-gon          #+#    #+#             */
-/*   Updated: 2025/08/13 19:20:50 by jose-gon         ###   ########.fr       */
+/*   Updated: 2025/08/18 13:56:12 by jose-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,3 +71,4 @@ unsigned int Array<T>::size() const
 {
 	return _size;
 }
+

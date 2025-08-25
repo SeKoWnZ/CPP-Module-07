@@ -6,7 +6,7 @@
 /*   By: jose-gon <jose-gon@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/11 18:39:19 by jose-gon          #+#    #+#             */
-/*   Updated: 2025/08/13 19:19:41 by jose-gon         ###   ########.fr       */
+/*   Updated: 2025/08/25 11:41:27 by jose-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ class Array
 	private:
 		T *_array;
 		unsigned int _size;
+		
 	public:
 		Array();
 		Array(unsigned int n);
