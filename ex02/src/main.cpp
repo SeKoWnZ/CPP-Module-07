@@ -6,7 +6,7 @@
 /*   By: jose-gon <jose-gon@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/11 18:43:37 by jose-gon          #+#    #+#             */
-/*   Updated: 2025/08/25 11:52:30 by jose-gon         ###   ########.fr       */
+/*   Updated: 2026/04/29 17:33:30 by jose-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int main()
     std::cout << "The size of the array is: " <<  arr.size() << std::endl;
     try
     {
-        std::cout << arr[5] << std::endl; // fuera de rango
+        std::cout << arr[5] << std::endl; //out of range
     }
     catch (const std::exception& e)
     {
